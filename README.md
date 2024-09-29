@@ -325,7 +325,7 @@
 
 - 用户输入已知明文和已知密文，点击开始破解，在一段时间后便可得到暴力破解的密钥。
 
-![](D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\force.gif)
+![](picture\force.gif)
 
 ## 第5关：封闭测试
 
