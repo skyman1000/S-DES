@@ -7,8 +7,7 @@
 ├── src
 │    ├── DES
 │    │    ├── SDES_.java            - SDES算法实现
-│    │    ├── SDESGUI.java          - 界面设计  
-│    └────└── Main.java             - 程序入口 
+│    │    └── SDESGUI.java          - 界面设计   
 └── README.md                       
 ```
 ## 3、S-Des算法实现——S_Des.java
@@ -110,16 +109,7 @@
         return ciphertext;
     }
 ```
-## 4、编译与运行
-1. 使用Java编译器编译项目：
-```bash
-   javac Main.java
-```
 
-2. 运行项目：
-```bash
-   java Main
-```
 
 
 
