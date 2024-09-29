@@ -20,9 +20,7 @@
 │    ├── DES
 │    │    ├── S_DES.java            - S-DES算法实现
 │    │    └── SDESGUI.java          - 界面设计   
-└── README.md   
-└── deevelopment.md                 - 开发手册
-└── Test Results.md                 - 测试结果
+└── README.md                       - 包含开发手册、用户指南、测试结果
 ```
 
 ## 3、S-Des算法实现——S_Des.java
@@ -278,6 +276,32 @@
 
 - 考虑到是**算法标准**，所有人在编写程序的时候需要使用相同算法流程和转换单元(P-Box、S-Box等)，以保证算法和程序在异构的系统或平台上都可以正常运行。
 - 设有A和B两组位同学(选择相同的密钥K)；则A、B组同学编写的程序对明文P进行加密得到相同的密文C；或者B组同学接收到A组程序加密的密文C，使用B组程序进行解密可得到与A相同的P。
+
+- 我们与刘肖、胡力文组进行了交叉测试
+- 选择相同的密钥K为：0000011111
+- 相同的明文P为：10101010
+
+同时，刘肖组使用我们组的加密结果使用密钥K进行解密，解密后的明文为：10101010。结果如下所示，说明我们所设计的算法是标准算法。
+
+**二进制测试：**
+
+<img src="picture/test2_us_result1.png" width="50%">
+
+<img src="picture/test2_others_result1.png" width="50%">
+
+<img src="picture/test2_others_result_decode.png" width="50%">
+
+**Unicode码测试：**
+
+- 输入字符均为：你在干什么
+
+- 加密结果均为：偿锁䀗睑眙
+
+<img src="picture/test2_us_result_unicode.png" width="50%">
+
+<img src="picture/test2_others_result_unicode.png" width="50%">
+
+
 
 ## 第三关：扩展功能
 
