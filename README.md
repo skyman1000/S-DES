@@ -8,7 +8,7 @@
 
 **S-DES算法流程：**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\algorithm.png" style="zoom:50%;" />
+<img src="picture/algorithm.png" style="zoom:50%;" />
 
 ## 2、项目结构
 
