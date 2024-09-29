@@ -298,18 +298,18 @@
 
 - **加密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_ASCII_encode_result.png" style="zoom:50%;" />
+<img src="picture\test3_ASCII_encode_result.png" width=60%>
 
 - **解密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_ASCII_decode_result.png" style="zoom:50%;" />
+<img src="picture\test3_ASCII_decode_result.png" width=60%>
 
 - #### Unicode类型加解密模式
 
 
 - **加密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_Unicode_encode_result.png" style="zoom:50%;" />
+<img src="picture\test3_Unicode_encode_result.png" width=60%>
 
 - **解密**
 
