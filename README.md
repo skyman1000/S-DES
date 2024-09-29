@@ -10,7 +10,7 @@
 
 **S-DES算法流程：**
 
-<img src="picture/algorithm.png" style="zoom:50%;" />
+<img src="picture/algorithm.png" width=60%>
 
 ## 2、项目结构
 
