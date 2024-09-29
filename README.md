@@ -10,7 +10,7 @@
 
 **S-DES算法流程：**
 
-<img src="picture/algorithm.png" width=60%>
+<img src="picture/algorithm.png" width=80%>
 
 ## 2、项目结构
 
@@ -157,11 +157,11 @@
 
 **加解密模式界面：**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\主界面.png" style="zoom:50%;" />
+<img src="picture\主界面.png" width=50%>
 
 **暴力破解模式界面：**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\暴力破解用户界面.png" style="zoom:50%;" />
+<img src="picture\暴力破解用户界面.png" width=50%>
 
 
 
