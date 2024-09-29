@@ -6,13 +6,13 @@
 
 **S-DES算法流程：**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\algorithm.png" style="zoom:50%;" />
+<img src="picture/algorithm.png" width="60%">
 
 ### **主界面**
 
 可以选择不同的功能模块，包括：**加解密模式、暴力破解模式**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\主界面.png" style="zoom:50%;" />
+<img src="picture/主界面.png" width="50%">
 
 ### 加密操作
 
@@ -22,13 +22,13 @@
 
   明文为10101010
 
-  <img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test1_binary_encode_result.png" style="zoom:50%;" />
+  <img src="picture/test1_binary_encode_result.png" width="50%">
 
 **ASCII类型的加密**
 
 明文为abcdefg
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test1_ASCII_encode_result.png" style="zoom:50%;" />
+<img src="picture/test1_ASCII_encode_result.png" width="50%">
 
 ### 解密操作
 
@@ -38,11 +38,11 @@
 
 密文为11101000
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test1_binary_decode_result.png" style="zoom:50%;" />
+<img src="picture/test1_binary_decode_result.png" width="50%">
 
 - **ASCII类型的解密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test1_ASCII_decode_result.png" style="zoom:50%;" />
+<img src="picture/test1_ASCII_decode_result.png" width="50%">
 
 ## 第二关：交叉测试
 
@@ -68,21 +68,21 @@
 
 - **加密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_ASCII_encode_result.png" style="zoom:50%;" />
+<img src="picture/test3_ASCII_encode_result.png" width="50%">
 
 - **解密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_ASCII_decode_result.png" style="zoom:50%;" />
+<img src="picture/test3_ASCII_decode_result.png" width="50%">
 
 #### Unicode类型加解密模式
 
 - **加密**
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_Unicode_encode_result.png" style="zoom:50%;" />
+<img src="picture/test3_Unicode_encode_result.png" width="50%">
 
 - **解密**
 
-  <img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test3_Unicode_decode_result.png" style="zoom:50%;" />
+  <img src="picture/test3_Unicode_decode_result.png" width="50%">
 
 ## 第四关：暴力破解
 
@@ -90,11 +90,11 @@
 
 ### 暴力破解用户界面
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\暴力破解用户界面.png" style="zoom:50%;" />
+<img src="picture/暴力破解用户界面.png" width="50%">
 
 - 用户输入已知明文和已知密文，点击开始破解，在一段时间后便可得到暴力破解的密钥。
 
-![](D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\force.gif)
+![](picture/force.gif)
 
 ## 第5关：封闭测试
 
@@ -126,7 +126,7 @@
 - 由分析结果来看，对于随机选择的一个明密文对，有不止一个密钥Key。进一步发现，对同一明文使用不同密钥进行加密，可能会得到相同的密文。
 - 即：对于明文空间内任意给定的明文分组，确实存在可能性，即选择不同的密钥，加密可以得到相同的密文，如下所示。
 
-<img src="D:\Dowmloads\大三上课程\信息安全导论\CODE\S-DES\picture\test5.png" style="zoom:50%;" />
+<img src="picture/test5.png" width="50%">
 
 - 明文在测试1中选择10101010，密钥选择0000011111，密文为11101000
 - 之后我们选择密钥0100011111，明文不变，加密的密文仍为11101000
