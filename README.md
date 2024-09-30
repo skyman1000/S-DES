@@ -18,7 +18,9 @@
 │    ├── DES
 │    │    ├── S_DES.java            - S-DES算法实现
 │    │    └── SDESGUI.java          - 界面设计   
-└── README.md                       - 包含开发手册、用户指南、测试结果
+└── development.md                  - 开发手册
+└── README.md                       - 包含用户指南
+└── Results.md                      - 测试结果
 ```
 
 ## 3、S-Des算法实现——S_Des.java
